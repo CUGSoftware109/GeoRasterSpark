@@ -1,32 +1,36 @@
 # SparkGeoCompute
 
-SparkGeoCompute是基于Spark分布式计算框架的地理栅格数据的分布式计算方法，主要分为局部地图代数计算（山地分类）和全局地图代数计算（可视域分析）两类算法。
+
+SparkGeoCompute is a distributed computing method for geographical and raster data based on Spark distributed computing framework. It is divided into two types of algorithms: local map algebra calculation (mountain classification) and global map algebra calculation (visual analysis).
+
+[Chinese-Introduction](https://github.com/CUGSoftware109/SparkGeoCompute/blob/master/README_CN.md)
 
 
-# 功能点
 
-1.单机可视域los算法
+# Function
 
-2.基于spark的并行loc算法，采用等角划分法划分原始栅格数据，达到数据并行的目的
+1.Standalone visual field LOS(line of sight) algorithm.
 
-3.基于原始栅格文件的spark并行山地分类算法
+2.Parallel los algorithm based on Spark uses equal-area method to divide the original raster data to achieve data parallelism.
 
-4.基于瓦片分割的spark并行山地分类算法
+3.Parallel mountain classification algorithm of original Raster File on Spark enviroment.
+
+4.Parallel mountain classification algorithm of tile segmentation on Spark enviroment.
 
 
 # 项目结构
 
-/src/main/scala/com/algorithm/single/los/： 单机可视域los算法。
+/src/main/scala/com/algorithm/single/los/： The implementation of the single machine visible domain LOS algorithm .
 
-/src/main/scala/com/algorithm/parallel/los/： 采用等面积划分的并行可视域los算法。
+/src/main/scala/com/algorithm/parallel/los/： Parallel region los algorithm with equal area division.
 
-/src/main/scala/com/algorithm/parallel/classify/： 采用瓦片分割数据的山地分类并行算法和直接基于原始栅格数据的山地分类算法。
+/src/main/scala/com/algorithm/parallel/classify/： Mountain classification parallel algorithm using tile segmentation data and mountain classification algorithm directly based on original raster data.
 
-/src/main/scala/com/hadoop/utils/：辅助spark数据读取和输出的hadoop工具类。
+/src/main/scala/com/hadoop/utils/：The hadoop utility class that assists in reading and writing spark data.
 
 
-# 运行环境和开发工具
+# Running environment and development tools
 
-运行环境：Centos6.5、JDK1.7、scala-2.10.4、Spark-1.5.1
+running environment：Centos6.5、JDK1.7、scala-2.10.4、Spark-1.5.1
 
-开发工具：IntelliJ IDEA、Maven
+development tools：IntelliJ IDEA、Maven
