@@ -18,7 +18,7 @@ SparkGeoCompute is a distributed computing method for geographical and raster da
 4.Parallel mountain classification algorithm of tile segmentation on Spark enviroment.
 
 
-# 项目结构
+# Project structure
 
 /src/main/scala/com/algorithm/single/los/： The implementation of the single machine visible domain LOS algorithm .
 
