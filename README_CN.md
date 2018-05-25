@@ -1,6 +1,6 @@
-# SparkGeoCompute
+# GeoRasterSpark
 
-SparkGeoCompute是基于Spark分布式计算框架的地理栅格数据的分布式计算方法，主要分为局部地图代数计算（山地分类）和全局地图代数计算（可视域分析）两类算法。
+GeoRasterSpark是基于Spark分布式计算框架的地理栅格数据的分布式计算方法，主要分为局部地图代数计算（山地分类）和全局地图代数计算（可视域分析）两类算法。
 
 
 # 功能点
