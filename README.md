@@ -1,7 +1,7 @@
 # GeoRasterSpark
 
 
-SparkGeoCompute is a distributed computing method for geographical and raster data based on Spark distributed computing framework. It is divided into two types of algorithms: local map algebra calculation (mountain classification) and global map algebra calculation (visual analysis).
+GeoRasterSpark is a distributed computing method for geographical and raster data based on Spark distributed computing framework. It is divided into two types of algorithms: local map algebra calculation (mountain classification) and global map algebra calculation (visual analysis).
 
 [Chinese-Introduction](https://github.com/CUGSoftware109/GeoRasterSpark/blob/master/README_CN.md)
 
