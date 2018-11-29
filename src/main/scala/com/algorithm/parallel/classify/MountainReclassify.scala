@@ -5,11 +5,8 @@ import java.nio.ByteBuffer
 import java.util.zip.ZipInputStream
 
 import com.hadoop.utils.{TileInputFormat, TileOutputFormat}
-import hadoop.TileInputFormat
 import org.apache.hadoop.conf.Configuration
 import org.apache.hadoop.fs.{FileSystem, Path}
-import org.apache.hadoop.mapreduce.InputFormat
-import org.apache.hadoop.mapreduce.lib.input.TextInputFormat
 import org.apache.log4j.Logger
 import org.apache.log4j.xml.DOMConfigurator
 import org.apache.spark.input.PortableDataStream
